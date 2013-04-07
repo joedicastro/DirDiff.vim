@@ -218,11 +218,11 @@ if !hasmapto('<Plug>DirDiffPrev')
 endif
 
 " Global Maps:
-map <unique> <script> <Plug>DirDiffGet    :diffget<CR>
-map <unique> <script> <Plug>DirDiffPut    :diffput<CR>
-map <unique> <script> <Plug>DirDiffNext    :call <SID>DirDiffNext()<CR>
-map <unique> <script> <Plug>DirDiffPrev    :call <SID>DirDiffPrev()<CR>
-map <unique> <script> <Plug>DirDiffQuit    :call <SID>DirDiffQuit()<CR>
+map <script> <Plug>DirDiffGet    :diffget<CR>
+map <script> <Plug>DirDiffPut    :diffput<CR>
+map <script> <Plug>DirDiffNext    :call <SID>DirDiffNext()<CR>
+map <script> <Plug>DirDiffPrev    :call <SID>DirDiffPrev()<CR>
+map <script> <Plug>DirDiffQuit    :call <SID>DirDiffQuit()<CR>
 
 " Default Variables.  You can override these in your global variables
 " settings.
