@@ -518,7 +518,7 @@ function! <SID>CloseDiffWindows()
 endfunction
 
 " Toggle hexmode from http://vim.wikia.com/wiki/Hex
-function <SID>ToggleHex()
+function! <SID>ToggleHex()
     " hex mode should be considered a read-only operation
     " save values for modified and read-only for restoration later,
     " and clear the read-only flag for now
